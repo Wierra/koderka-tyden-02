@@ -35,9 +35,10 @@ body {
 }
 
 .odstavec {
-    margin: 1px 0;
+    margin: 10px 0;
     color: white;
     border: 1px solid black;
+    display: inline;
 }
 
 .prvni {
@@ -51,3 +52,20 @@ body {
 .treti {
     background-color: #e74c3c;
 }
+
+.nadpis{
+    width: 30%;
+}
+
+.text{
+    width: 40%;
+}
+
+a{
+    /*height: 100px;      /*neprojeví se, nefunguje na řádkový prvek
+    width: 200px;*/
+    padding: 50px;
+    background-color: pink;
+    display: inline-block;
+}
+

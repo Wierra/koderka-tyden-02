@@ -37,6 +37,7 @@ body {
 
 .druhy {
     background-color: #f1c40f;
+    display: none;
 }
 
 .treti {
