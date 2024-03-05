@@ -3,5 +3,6 @@
     /* zde dopiš relativní pozicování prostředniho obdélníku  */
     position: relative;
     left: 50px;
+    top: 100px;
 
 }
