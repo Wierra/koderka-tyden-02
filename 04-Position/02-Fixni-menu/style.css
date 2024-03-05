@@ -2,53 +2,50 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-
 /* spolecne */
 body {
 	font: 18px/1.5 sans-serif;
 }
 
-
 .hlavicka {
-	/*
-	napozicuj hlavičku fixně tak, aby byla stále
+	/*napozicuj hlavičku fixně tak, aby byla stále
 	viditelná u horního okraje okna prohlížeče
 	a obsah stránky skroloval pod ní
 	*/
-
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .paticka {
-	/*
-	napozicuj patičku fixně tak, aby byla stále
+	/*napozicuj patičku fixně tak, aby byla stále
 	viditelná u dolního okraje okna prohlížeče
 	a obsah stránky skroloval pod ní
 	*/
-
-
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 .obsah {
-	/*
-	přidej CSS, aby obsah nahoře a dole na stránce
+	/*přidej CSS, aby obsah nahoře a dole na stránce
 	nebyl zakrytý hlavičkou a patičkou
 	*/
-
-
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 
-
-
 /* ---------------------------------------- */
-
 /* styl pro patičku */
 .paticka {
 	background-color: lightblue;
 	padding: 20px;
 	text-align: center;
+	color: blue;
 }
-
 
 /*
 	menu nastylované tak, jak jsme ho společně
