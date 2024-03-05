@@ -1,6 +1,7 @@
 
 .absolute {
     /* zde dopiš absolutní pozicovaní prvku na stránce */
-
-
+    position: absolute;
+    left: 400px;
+    top: 0;
 }
