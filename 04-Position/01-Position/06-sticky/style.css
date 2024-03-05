@@ -4,12 +4,10 @@
     napozicuj box tak, aby se při skrolování
     zastavil o horní okraj stránky
     */
+    position: sticky;
+    top: 0;
 
 }
-
-
-
-
 
 /* -----------------------------*/
 
@@ -21,4 +19,3 @@
     border: 1px dashed black;
     background-color: #ffffd0;
 }
-
